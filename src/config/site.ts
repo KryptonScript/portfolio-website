@@ -49,11 +49,11 @@ export const siteConfig = {
 
   socials: <SocialLink[]>[
     { label: "Email", href: "mailto:kirubelwinner@gmail.com" },
-    { label: "GitHub", href: "https://github.com/Kirubel-Eshetu" },
+    { label: "GitHub", href: "https://github.com/KryptonScript" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kirubel-eshetu-tefera" },
-    { label: "Telegram", href: "https://t.me/KiraFix_tech" },
-    { label: "X/Twitter", href: "https://x.com/@KirubelEshetuTe" },
-    { label: "Youtube", href: "https://www.youtube.com/@KirubelEshetuTefera" },
+    { label: "Telegram", href: "https://t.me/KryptonScript" },
+    { label: "X/Twitter", href: "https://x.com/@KryptonScript" },
+    { label: "Youtube", href: "https://www.youtube.com/@KryptonScript" },
   ],
 
   skills: [
@@ -168,7 +168,7 @@ export const siteConfig = {
   education: <Education[]>[
     {
       school: "Jimma University / Computer Science",
-      degree: "BSc in Computer Science",
+      degree: "BSc. in Computer Science",
       start: "2021",
       end: "2024",
     },
