@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #000000;
+  --accent: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+[data-theme="dark"], :root.dark {
+  --background: #0a0a0a;
+  --foreground: #e5e7eb;
+  --accent: #16bd0c;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(600px 400px at 10% -10%, color-mix(in oklab, var(--accent), transparent 85%), transparent 70%),
+  radial-gradient(800px 500px at 100% 0%, color-mix(in oklab, var(--accent), transparent 90%), transparent 70%);
+}
+
+.prose {
+  --tw-prose-body: var(--foreground);
+}
+
+.gradient-text {
+  background-image: linear-gradient(90deg, var(--accent), color-mix(in oklab, var(--accent), white 30%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-surface {
+  background: color-mix(in oklab, var(--background), black 2%);
+}
+
+.glass {
+  background-color: color-mix(in oklab, var(--background), transparent 70%);
+  background-filter: blur(10px);
+}
+
+.chip {
+  transition: background-color 150ms ease, box-shadow 150ms ease, color 150ms ease;
+}
+
+.chip:hover {
+  background-color: color-mix(in oklab, var(--accent), white 15%);
+  color: #0a0a0a;
+}
+
+.dark .chip:hover {
+  background-color: color-mix(in oklab, var(--accent), black 20%);
+  color: #0a0a0a;
+}
+
+
+
+
+
+
+
