@@ -1,7 +1,8 @@
 {
-  "name": "kirubel-eshetu-portfolio-website",
+  "name": "kirubel-portfoliokr-website",
   "version": "1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
