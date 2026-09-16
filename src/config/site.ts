@@ -133,12 +133,20 @@ export const siteConfig = {
 
   experience: <Experience[]>[
     {
+      company: " ",
+      role: "Freelancer",
+      start: "Oct 2026",
+      end: "Present",
+      summary: "I have started freelancing and would like your support in landing remote jobs.",
+      highlights: ["MSSQL server administration", "Front-End Development"],
+    },
+    {
       company: "CBE",
       role: "Database Engineer",
-      start: "Jan 2026",
-      end: "Present",
+      start: "Dec 2026",
+      end: "Oct 2026",
       summary: "Working as Database engineer on CBE's different databases.",
-      highlights: ["MSSQL Monitoring.", "Oracle RDBMS and grid installation."],
+      highlights: ["MSSQL database monitoring, installation and configuration", "Oracle database installation and configuration.", "Fiber cable installation between servers in datacenter."],
     },
     {
       company: "INSA",
