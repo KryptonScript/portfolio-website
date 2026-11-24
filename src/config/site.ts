@@ -30,15 +30,16 @@ export type Education = {
 
 export const siteConfig = {
   name: "Kirubel Eshetu",
-  role: "Computer Programmer",
+  role: "Software Developer",
   location: "Addis Ababa, Ethiopia",
   email: "kirubelwinner@gmail.com",
-  avatar: "/anime-hacker.jpg",
+  avatar: "/Cool Programmer.png",
   description:
-    "👨🏾‍💻 Aspiring programmer, currently working as a Database Engineer. \n 🖥️ Trying to learn, build and grow by solving micro problems in daily routine through coding.",
+    "👨🏾‍💻 Aspiring developer, currently working as a Freelancer. \n 🖥️ Trying to learn, build, grow and sell by solving problems in daily life routine through coding.",
   keywords: [
     "Computer Programmer",
     "Web Developer",
+    "Software Developer",
     "Frontend",
     "Backend",
     "Node.js",
@@ -51,7 +52,7 @@ export const siteConfig = {
     { label: "Email", href: "mailto: kirubelwinner@gmail.com" },
     { label: "GitHub", href: "https://github.com/KryptonScript" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kirubel-eshetu" },
-    { label: "Telegram", href: "https://t.me/KrytonScript" },
+    { label: "Telegram", href: "https://t.me/KryptonScript" },
     { label: "X/Twitter", href: "https://x.com/@KryptonScript" },
     { label: "Youtube", href: "https://www.youtube.com/@KryptonScript" },
   ],
@@ -64,7 +65,6 @@ export const siteConfig = {
     "PHP",
     "Node.js",
     "Express.js",
-    "EJS",
     "Git",
     "React",
     "MongoDB",
@@ -78,17 +78,9 @@ export const siteConfig = {
       title: "JZPIS",
       description:
         "Developed for final year project defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Bootstrap",
-        "JS",
-        "PHP",
-        "MySQL",
-        "Python",
-      ],
+      technologies: ["HTML", "CSS", "JS", "PHP", "MySQL"],
       href: "https://jzpis.netlify.app/",
-      repo: "https://github.com/KryptonScript/JZPIS",
+      repo: "https://github.com/KryptonScript/jzpis",
     },
     {
       title: "CV Kirubel",
@@ -112,7 +104,7 @@ export const siteConfig = {
         "A stopwatch web application made with HTML, CSS and JavaScript. It helps track time in HH:MM:SS:CC format implying Hours:Minutes:Second:Centiseconds. You can also take laps",
       technologies: ["HTML", "CSS", "JS"],
       href: "https://classic-stopwatch.netlify.app/",
-      repo: "https://github.com/KryptonScript/prodigy-internship/tree/main/web-dev-internship/task-2-stopwatch-web-application",
+      repo: "https://github.com/KryptonScript/prodigy-internship/tree/main/Web-Dev/task-2-stopwatch-web-application",
     },
     {
       title: "Weather App",
@@ -120,7 +112,7 @@ export const siteConfig = {
         "This weather app informs the weather condition of a city you want or based on your current location.",
       technologies: ["HTML", "CSS", "JS"],
       href: "https://weathercheckkr.netlify.app/",
-      repo: "https://github.com/KryptonScript/prodigy-internship/tree/main/web-dev-internship/task-5-weather-app",
+      repo: "https://github.com/KryptonScript/prodigy-internship/tree/main/Web-Dev/task-5-weather-app",
     },
     {
       title: "QuoLand",
@@ -135,23 +127,15 @@ export const siteConfig = {
     {
       company: " ",
       role: "Freelancer",
-      start: "Oct 2026",
+      start: "Jun 2026",
       end: "Present",
-      summary: "I have started freelancing and would like your support in landing remote jobs.",
-      highlights: ["MSSQL server administration", "Front-End Development"],
-    },
-    {
-      company: "CBE",
-      role: "Database Engineer",
-      start: "Dec 2026",
-      end: "Oct 2026",
-      summary: "Working as Database engineer on CBE's different databases.",
-      highlights: ["MSSQL database monitoring, installation and configuration", "Oracle database installation and configuration.", "Fiber cable installation between servers in datacenter."],
+      summary: "I have started freelancing. I am open to remote, freelance jobs.",
+      highlights: ["Front-End Development", "Back-End Website Development", "SQL server administration", ],
     },
     {
       company: "INSA",
       role: "Software Developer",
-      start: "Mar 2025",
+      start: "Feb 2025",
       end: "Mar 2026",
       summary:
         "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
@@ -166,7 +150,7 @@ export const siteConfig = {
       start: "Aug 2024",
       end: "Dec 2024",
       summary:
-        "Provided technical support and assistanct for Safaricom Ethiopia customers",
+        "Provided technical support and assistance to Safaricom Ethiopia customers",
       highlights: [
         "Addressed customers inquiries related to network usage and M-Pesa.",
         "Provided information on new Safaricom services.",
@@ -178,7 +162,7 @@ export const siteConfig = {
       start: "Jul 2023",
       end: "Aug 2023",
       summary:
-        "Worked on maintenance of major Hardware parts and introduced myself to major networking apparatus.",
+        "Worked on maintenance of Computer Hardware parts and introduced myself to some networking apparatus.",
       highlights: [
         "Network installation project",
         "Hardware maintenance and troubleshooting",
@@ -218,7 +202,7 @@ export const siteConfig = {
       end: "2012",
     },
   ],
-  baseUrl: "https://kirubel-eshetu-portfolio.vercel.app/",
+  baseUrl: "https://kirubel-portfoliokr.vercel.app/",
 } as const;
 
 export type SiteConfig = typeof siteConfig;
