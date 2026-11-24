@@ -37,9 +37,9 @@ export const siteConfig = {
   description:
     "👨🏾‍💻 Aspiring developer, currently working as a Freelancer. \n 🖥️ Trying to learn, build, grow and sell by solving problems in daily life routine through coding.",
   keywords: [
-    "Computer Programmer",
-    "Web Developer",
     "Software Developer",
+    "Computer Programmer",
+    "Website Developer",
     "Frontend",
     "Backend",
     "Node.js",
